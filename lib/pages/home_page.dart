@@ -26,7 +26,7 @@ Widget body() => GridView.builder(
       // SliverGridDelegateWithFixedCrossAxisCount viene utilizzato per creare una griglia con un numero fisso di tessere nell'asse trasversale.
       // L'asse trasversale è l'asse perpendicolare alla direzione di scorrimento (cioè, da sinistra a destra).
       gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-        crossAxisCount: 2, // Il numero di tessere nell'asse trasversale.
+        crossAxisCount: 2, // Il numero elementi nell'asse X.
         childAspectRatio:
             0.9, // Il rapporto tra l'asse trasversale e l'asse principale di ogni figlio.
         crossAxisSpacing:
